@@ -1,0 +1,31 @@
+#//Script Kiddies//                                   #//Black Mask//
+kiddies='\e[1;32m'
+kiddes='\e[1;33m'
+clear
+echo ""                                               figlet "A l i e x" | lolcat                           echo -e $kiddies "==================================="
+
+echo " Script : King Cracker" | lolcat
+echo -e $kiddies "==================================="
+echo " From : Aliex-jangali" | lolcat
+echo -e $kiddies "==================================="echo " [1] Hack > hack=Facebook"  | lolcat
+echo " [2] Hack >>hack=Intagram"  | lolcat            echo " [3] Exit   >>>Program" | lolcat
+echo -e $kiddies "==================================="
+
+read -p " Choice Number : " Crack;
+if [ $Crack = 1 ] || [ $Crack = 01 ]                
+then
+figlet "Crack FB" | lolcat
+python2 a.py;
+fi
+if [ $Crack = 2 ] || [ $Crack = 02 ]
+then
+figlet "Crack Insta" | lolcat
+python2 m.py;
+fi
+if [ $Crack = 3 ] || [ $Crack = 03 ]
+then
+echo -e $kiddies "************successfuly👉🏚️ **********
+"
+figlet "Exit" | lolcat
+exit;
+fi
